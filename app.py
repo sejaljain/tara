@@ -1,10 +1,10 @@
 import flask
 import requests
-import python-firebase
+import firebase
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
-@app.route("/")
+@app.route("/index.html")
 def hello():
 	return flask.render_template("index.html")
 
@@ -14,7 +14,4 @@ def page_not_found(error):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
-
-
-
 
