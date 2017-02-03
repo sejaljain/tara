@@ -59,6 +59,6 @@ def parse_response(dictionary):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="localhost")
 
     # python3.5 "/Users/Sanford/Google Drive/Code/Python/HelloWorldFlask/app.py"
